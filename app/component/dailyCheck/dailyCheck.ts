@@ -104,16 +104,14 @@ class DailyCheck {
             });
         });
         
-        firebase.setValue( 
+        firebase.push( 
             '/dailyHabit',
-            [
-                {
-                    id: userInfo.uid,
-                    date: this.date.text,
-                    habits: habits
-                }
-            ]
-        );
+            {
+                id: userInfo.uid,
+                date: this.date.text,
+                habits: habits
+            }
+        ).then(result => alert('등록되었습니다'));
     }
 
     public logout() {
