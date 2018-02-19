@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" navigatedTo="navigated" actionBarHidden="true">
+    <StackLayout flexDirection="column">
+        <Label id="date" />
+        <Button text="다음날" id="btnTomorrow"/>
+        <Button text="전날" id="btnYesterday"/>
+        <StackLayout flexDirection="column" id="habitContainer">
+        </StackLayout>
+        <Button text="등록" id="btnSubmit"/>
+    </StackLayout>
+</Page>

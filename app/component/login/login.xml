@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" navigatedTo="navigated" actionBarHidden="true">
+    <StackLayout flexDirection="column">
+        <Label text="email"/>
+        <TextField id="email"></TextField>
+        <Label text="password"/>
+        <TextField id="password"></TextField>
+        <Button text="LOGIN" id="btnLogin"/>
+    </StackLayout>
+</Page>
