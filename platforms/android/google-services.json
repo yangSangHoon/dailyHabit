@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "581346802480",
+    "firebase_url": "https://fir-sync-f3b82.firebaseio.com",
+    "project_id": "fir-sync-f3b82",
+    "storage_bucket": "fir-sync-f3b82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581346802480:android:1e9af10272176d7e",
+        "android_client_info": {
+          "package_name": "org.nativescript.myappname"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581346802480-506kooupg1av2sdgbjfjbrc38vlv7qua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO1p27tZv0Db5jJFiUfjwGDLEnHnziUQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
