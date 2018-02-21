@@ -7,7 +7,7 @@ class Login {
     private password;
     private btnLogin;
 
-    constructor(page){
+    constructor(page) {
         this.email = page.getViewById('email');
         this.password = page.getViewById('password');
         this.btnLogin = page.getViewById('btnLogin');
@@ -16,22 +16,21 @@ class Login {
         });
     }
 
-    public goLogin(){
-        console.log(this.email.text);
-        console.log(this.password.text);
-        firebase.login(
-        {
-            type: firebase.LoginType.PASSWORD,
-            passwordOptions: {
-            email: this.email.text,
-            password: this.password.text,
-            }
-        })
-        .then(result => JSON.stringify(result))
-        .catch(error => console.log(error));
+    public async goLogin() {
+        try {
+            await firebase.login(
+                {
+                    type: firebase.LoginType.PASSWORD,
+                    passwordOptions: {
+                        email: this.email.text,
+                        password: this.password.text,
+                    }
+                });
+            alert('로그인 성공');
+        } catch (e) {
+            alert(e);
+        }
     }
-
-
 }
 
 exports.navigated = function (args) {

@@ -1,8 +1,7 @@
-import {userInfo} from '../../model/user';
+import model from '../../model/model';
 import buttonModule = require("ui/button");
-import { ViewBase } from 'tns-core-modules/ui/page/page';
-const firebase = require("nativescript-plugin-firebase");
 const builder = require('ui/builder');
+import {addZeroDigit} from '../../util/util';
 
 class DailyCheck {
 
@@ -11,7 +10,6 @@ class DailyCheck {
     private btnTomorrow;
     private btnYesterday;
     private date;
-    private habits = [];
     private todayDate;
 
     constructor(page){
@@ -23,6 +21,7 @@ class DailyCheck {
         
         this.defaultSetting();
         this.eventSetting();
+        this.makeMyHabits(model.userInfo.myHabits);
     }
 
     private defaultSetting() {
@@ -31,7 +30,7 @@ class DailyCheck {
     }
 
     private setDate(date){
-        this.date.text = `${date.getFullYear()}.${date.getMonth()+1}.${date.getDate()}`;
+        this.date.text = `${date.getFullYear()}.${addZeroDigit(date.getMonth()+1)}.${date.getDate()}`;
     }
 
     private addHabit(habitDbData = null) {
@@ -54,24 +53,6 @@ class DailyCheck {
         this.btnYesterday.on(buttonModule.Button.tapEvent, () => {
             this.goYesterday();
         });
-
-        const onChildEvent = (result) => {
-            console.log("Event type: " + result.type);
-            console.log("Key: " + result.key);
-            console.log("Value: " + JSON.stringify(result.value));
-            const users = result.value;
-            //const myHabits = users.find(user => user.id == userInfo.uid);
-            this.makeMyHabits(users.habits);
-        };
-        
-        // listen to changes in the /users path
-        firebase.addChildEventListener(onChildEvent, "/users").then(
-            listenerWrapper => {
-                const path = listenerWrapper.path;
-                const listeners = listenerWrapper.listeners; // an Array of listeners added
-                // you can store the wrapper somewhere to later call 'removeEventListeners'
-            }
-        );
     }
 
     private goTommorrow() {
@@ -85,6 +66,7 @@ class DailyCheck {
     }
 
     private makeMyHabits(myHabits) {
+        console.log('myHabitsmyHabits', JSON.stringify(myHabits));
         if(!myHabits || myHabits.length == 0){
             this.addHabit();    
         }else{
@@ -95,7 +77,6 @@ class DailyCheck {
     }
 
     public goSubmit(){
-
         let habits: Array<Object> = [];
         this.habitContainer.eachChildView(child => {
             habits.push({
@@ -103,21 +84,13 @@ class DailyCheck {
                 value: Number(child.getViewById('habitCount').text)
             });
         });
-        
-        firebase.push( 
-            '/dailyHabit',
-            {
-                id: userInfo.uid,
-                date: this.date.text,
-                habits: habits
-            }
-        ).then(result => alert('등록되었습니다'));
+        const date = this.date.text.split('.').join('');
+        model.userInfo.setDailyHabits({date, habits});
     }
 
     public logout() {
-        firebase.logout();
+        model.userInfo.logout();
     }
-
 
 }
 

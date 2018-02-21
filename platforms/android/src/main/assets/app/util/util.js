@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.addZeroDigit = function (number, digit) {
+    if (digit === void 0) { digit = 2; }
+    var numText = String(number);
+    var length = digit - numText.length;
+    for (var i = 0; i < length; i++) {
+        numText = "0" + numText;
+    }
+    return Number(numText);
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXRpbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInV0aWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBYSxRQUFBLFlBQVksR0FBRyxVQUFDLE1BQU0sRUFBRSxLQUFTO0lBQVQsc0JBQUEsRUFBQSxTQUFTO0lBQzFDLElBQUksT0FBTyxHQUFHLE1BQU0sQ0FBQyxNQUFNLENBQUMsQ0FBQztJQUM3QixJQUFNLE1BQU0sR0FBRyxLQUFLLEdBQUcsT0FBTyxDQUFDLE1BQU0sQ0FBQztJQUN0QyxHQUFHLENBQUMsQ0FBQyxJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLE1BQU0sRUFBRSxDQUFDLEVBQUUsRUFBRSxDQUFDO1FBQzlCLE9BQU8sR0FBRyxNQUFJLE9BQVMsQ0FBQztJQUM1QixDQUFDO0lBRUQsTUFBTSxDQUFDLE1BQU0sQ0FBQyxPQUFPLENBQUMsQ0FBQztBQUMzQixDQUFDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgYWRkWmVyb0RpZ2l0ID0gKG51bWJlciwgZGlnaXQgPSAyKSA9PiB7XG4gICAgbGV0IG51bVRleHQgPSBTdHJpbmcobnVtYmVyKTtcbiAgICBjb25zdCBsZW5ndGggPSBkaWdpdCAtIG51bVRleHQubGVuZ3RoO1xuICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbGVuZ3RoOyBpKyspIHtcbiAgICAgICAgbnVtVGV4dCA9IGAwJHtudW1UZXh0fWA7XG4gICAgfVxuXG4gICAgcmV0dXJuIE51bWJlcihudW1UZXh0KTtcbn07Il19
