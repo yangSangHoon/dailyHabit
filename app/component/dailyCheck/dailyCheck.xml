@@ -6,5 +6,6 @@
         <StackLayout flexDirection="column" id="habitContainer">
         </StackLayout>
         <Button text="등록" id="btnSubmit"/>
+        <Button text="결과" id="btnResult"/>
     </StackLayout>
 </Page>
