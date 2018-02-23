@@ -2,6 +2,7 @@ import model from '../../model/model';
 import buttonModule = require("ui/button");
 const builder = require('ui/builder');
 import {addZeroDigit} from '../../util/util';
+import frameModule = require("ui/frame");
 
 class DailyCheck {
 
@@ -11,6 +12,7 @@ class DailyCheck {
     private btnYesterday;
     private date;
     private todayDate;
+    private btnResult;
 
     constructor(page){
         this.btnSubmit = page.getViewById('btnSubmit');
@@ -18,7 +20,8 @@ class DailyCheck {
         this.btnTomorrow = page.getViewById('btnTomorrow');
         this.btnYesterday = page.getViewById('btnYesterday');
         this.date = page.getViewById('date');
-        
+        this.btnResult = page.getViewById('btnResult');
+
         this.defaultSetting();
         this.eventSetting();
         this.makeMyHabits(model.userInfo.myHabits);
@@ -52,6 +55,10 @@ class DailyCheck {
         });
         this.btnYesterday.on(buttonModule.Button.tapEvent, () => {
             this.goYesterday();
+        });
+
+        this.btnResult.on(buttonModule.Button.tapEvent, () => {
+            this.goResult();
         });
     }
 
@@ -92,8 +99,15 @@ class DailyCheck {
         model.userInfo.logout();
     }
 
-}
+    private goResult() {
+        const topmost = frameModule.topmost();
+        topmost.navigate("component/result/result");
+    }
 
+}
+let dailyCheck = null;
 exports.navigated = function (args) {
-    new DailyCheck(args.object);
+    if(!dailyCheck){
+        dailyCheck = new DailyCheck(args.object);
+    }
 };

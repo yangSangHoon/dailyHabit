@@ -60,7 +60,6 @@ class DailyCheck {
         this.btnResult.on(buttonModule.Button.tapEvent, () => {
             this.goResult();
         });
-
     }
 
     private goTommorrow() {
@@ -106,7 +105,9 @@ class DailyCheck {
     }
 
 }
-
+let dailyCheck = null;
 exports.navigated = function (args) {
-    new DailyCheck(args.object);
+    if(!dailyCheck){
+        dailyCheck = new DailyCheck(args.object);
+    }
 };

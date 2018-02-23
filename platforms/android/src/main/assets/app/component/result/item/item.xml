@@ -1,6 +1,4 @@
 <StackLayout flexDirection="column" loaded="onLoad">
-    <Label text="습관명"/>
-    <TextField id="habitName"></TextField>
-    <Label text="시간/횟수"/>
-    <TextField id="habitCount"></TextField>
+    <Label id="date"/>
+    <Label id="habits"/>
 </StackLayout>

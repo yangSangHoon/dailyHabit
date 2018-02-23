@@ -37,7 +37,19 @@ class UserInfo {
         } catch (e) {
             alert('등록실패하였습니다' + e);
         }
+    }
 
+    public async getMyDailyHabits(){
+        const response = await this.getDailyHabits(this.uid);
+        return response.value;
+    }
+
+    public async getDailyHabits(id) {
+        try {
+            return await firebase.getValue(`/dailyHabit/${id}`);
+        } catch (e) {
+            return null;
+        }
     }
 
     async createHabits({habits}) {

@@ -10,23 +10,27 @@ class Result {
         this.showMyHabitsResult();
     }
 
-    showMyHabitsResult() {
-        model.userInfo.myHabits.forEach(habit => {
-            this.addItem(habit);
-        });
+    async showMyHabitsResult() {
+        const dailyHabits = await model.userInfo.getMyDailyHabits();
+        console.log('dailyHabits', JSON.stringify(dailyHabits));
+        for (let date in dailyHabits) {
+            this.addItem(date, dailyHabits[date].habits);
+        }
     }
 
-    addItem(habit){
-        const result = builder.load({
-            path: '/component/create/habit',
-            name: 'habit'
+    addItem(date, habits) {
+        const resultItem = builder.load({
+            path: '/component/result/item',
+            name: 'item'
         });
-
-        habit.getViewById('habitName').text = habitDbData.title;
-        this.habitContainer.addChild(habit);
+        resultItem.getViewById('date').text = date;
+        let habitsTxt = '';
+        habits.forEach(habit => {
+            habitsTxt += `${habit.title}/${habit.value}\n`
+        });
+        resultItem.getViewById('habits').text = habitsTxt;
+        this.habitContainer.addChild(resultItem);
     }
-
-
 }
 
 exports.navigated = function (args) {
