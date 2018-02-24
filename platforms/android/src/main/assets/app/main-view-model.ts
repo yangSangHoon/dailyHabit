@@ -10,6 +10,7 @@ export class HelloWorldModel extends Observable {
     private btn2;
     private btn3;
     private btn4;
+    private btn5;
     private topmost = frameModule.topmost();
 
     constructor(page) {
@@ -19,6 +20,7 @@ export class HelloWorldModel extends Observable {
         this.btn2 = page.getViewById('btn2');
         this.btn3 = page.getViewById('btn3');
         this.btn4 = page.getViewById('btn4');
+        this.btn5 = page.getViewById('btn5');
         this.eventSetting();
     }
 
@@ -37,6 +39,10 @@ export class HelloWorldModel extends Observable {
 
         this.btn4.on(buttonModule.Button.tapEvent, () => {
             this.navigate("component/profile/profile");
+        });
+
+        this.btn5.on(buttonModule.Button.tapEvent, () => {
+            this.navigate("component/groupResult/groupResult");
         });
     }
 

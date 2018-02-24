@@ -1,21 +1,17 @@
-import model from '../../model/model';
 import buttonModule = require("ui/button");
+import model from '../../model/model';
 const builder = require('ui/builder');
 
-class Result {
+class GroupResult {
     private habitContainer;
-    private title;
 
     constructor(page) {
         this.habitContainer = page.getViewById('habitContainer');
-        this.title = page.getViewById('title');
-        this.title.text = `${model.userInfo.profile.nickName}의 결과보기`;
-        this.showMyHabitsResult();
+        this.showGroupHabitsResult();
     }
 
-    async showMyHabitsResult() {
+    async showGroupHabitsResult() {
         const dailyHabits = await model.userInfo.getMyDailyHabits();
-        console.log('dailyHabits', JSON.stringify(dailyHabits));
         for (let date in dailyHabits) {
             this.addItem(date, dailyHabits[date].habits);
         }
@@ -36,9 +32,10 @@ class Result {
     }
 }
 
-let result = null;
+let groupResult = null;
 exports.navigated = function (args) {
-    if (!result) {
-        result = new Result(args.object);
+    if(!groupResult){
+        groupResult = new GroupResult(args.object);
     }
+
 };

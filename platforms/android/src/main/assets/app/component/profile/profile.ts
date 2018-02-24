@@ -18,7 +18,7 @@ class Profile {
         try {
             await model.userInfo.setProfile({
                 nickName: this.nickname.text
-            })
+            });
             alert('등록되었습니다');
         } catch (e) {
         }

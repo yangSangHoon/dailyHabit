@@ -3,6 +3,11 @@ const firebase = require("nativescript-plugin-firebase");
 class UserInfo {
     private _uid: string = '';
     private _myHabits = [];
+    private _userInfo;
+
+    get profile() {
+        return this._userInfo.profile;
+    }
 
     get uid() {
         return this._uid;
@@ -22,8 +27,9 @@ class UserInfo {
 
     public async getMyHabits() {
         try {
-            const respone = await firebase.getValue(`/users/${this.uid}`);
-            this.myHabits = respone.value.habits;
+            const response = await firebase.getValue(`/users/${this.uid}`);
+            this._userInfo = response.value;
+            this.myHabits = this._userInfo.habits;
             return this.myHabits;
         } catch (e) {
             return null;
@@ -62,9 +68,8 @@ class UserInfo {
     }
 
     async setProfile({nickName}) {
-        await firebase.setValue(`/users/${this.uid}/profile`, {
-            nickName: nickName
-        });
+        this._userInfo.profile = {nickName: nickName};
+        await firebase.setValue(`/users/${this.uid}`, this._userInfo);
     }
 
     public logout() {

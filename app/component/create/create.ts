@@ -16,11 +16,12 @@ class Create {
         this.habitContainer = page.getViewById('habitContainer');
         this.btnLogout = page.getViewById('btnLogout');
 
-        this.makeMyHabits(model.userInfo.myHabits);
+        this.makeMyHabits();
         this.eventSetting();
     }
 
     private addHabit(habitDbData = null) {
+        console.log('addHabit', JSON.stringify(habitDbData));
         const habit = builder.load({
             path: '/component/create/habit',
             name: 'habit'
@@ -46,7 +47,9 @@ class Create {
         });
     }
 
-    private makeMyHabits(myHabits) {
+    private makeMyHabits() {
+        const myHabits = model.userInfo.myHabits;
+        console.log('myHabits', JSON.stringify(myHabits));
         if (!myHabits || myHabits.length == 0) {
             this.addHabit();
         } else {
@@ -81,5 +84,7 @@ let create = null;
 exports.navigated = function (args) {
     if(!create){
         create = new Create(args.object);
+    }else{
+        create.makeMyHabits();
     }
 };

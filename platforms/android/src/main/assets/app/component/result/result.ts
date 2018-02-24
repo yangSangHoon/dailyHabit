@@ -4,9 +4,12 @@ const builder = require('ui/builder');
 
 class Result {
     private habitContainer;
+    private title;
 
     constructor(page) {
         this.habitContainer = page.getViewById('habitContainer');
+        this.title = page.getViewById('title');
+        this.title.text = `${model.userInfo.profile.nickName}의 결과보기`;
         this.showMyHabitsResult();
     }
 
