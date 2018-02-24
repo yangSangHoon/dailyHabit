@@ -39,7 +39,7 @@ class UserInfo {
         }
     }
 
-    public async getMyDailyHabits(){
+    public async getMyDailyHabits() {
         const response = await this.getDailyHabits(this.uid);
         return response.value;
     }
@@ -59,6 +59,12 @@ class UserInfo {
         } catch (e) {
             alert('등록실패하였습니다' + e);
         }
+    }
+
+    async setProfile({nickName}) {
+        await firebase.setValue(`/users/${this.uid}/profile`, {
+            nickName: nickName
+        });
     }
 
     public logout() {

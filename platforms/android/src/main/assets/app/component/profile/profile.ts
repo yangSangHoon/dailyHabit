@@ -1,5 +1,5 @@
-const firebase = require("nativescript-plugin-firebase");
 import buttonModule = require("ui/button");
+import model from '../../model/model';
 
 class Profile {
 
@@ -16,11 +16,19 @@ class Profile {
 
     public async save() {
         try {
+            await model.userInfo.setProfile({
+                nickName: this.nickname.text
+            })
+            alert('등록되었습니다');
         } catch (e) {
         }
     }
 }
 
+let profile = null;
 exports.navigated = function (args) {
-    new Profile(args.object);
+    if(!profile){
+        profile = new Profile(args.object);
+    }
+
 };

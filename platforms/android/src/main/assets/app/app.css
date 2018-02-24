@@ -16,6 +16,25 @@ The imported CSS rules must precede all other types of rules.
 The following CSS rule changes the font size of all UI
 components that have the btn class name.
 */
-.btn {
-    font-size: 18;
+.main{
+    background-image: ~/images/mainbg.jpeg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.main .btn{
+    background-color:transparent;
+}
+.main .btn.btn1{
+    left:20%; top:30%;
+}
+.main .btn.btn2{
+
+}
+.main .btn.btn3{
+    left:20%; top:150%;
+}
+.main .btn.btn4{
+    left:150%; top:150%;
 }

@@ -3,7 +3,6 @@
         <Label text="닉네임"/>
         <TextField id="nickname"></TextField>
         <Label text="사진"/>
-        <input type="file" />
         <Button text="저장" id="btnSave"/>
     </StackLayout>
 </Page>

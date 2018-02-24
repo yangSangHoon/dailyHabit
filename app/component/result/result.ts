@@ -33,6 +33,9 @@ class Result {
     }
 }
 
+let result = null;
 exports.navigated = function (args) {
-    new Result(args.object);
+    if (!result) {
+        result = new Result(args.object);
+    }
 };

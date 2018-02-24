@@ -23,6 +23,7 @@ class DailyCheck {
         this.btnResult = page.getViewById('btnResult');
 
         this.defaultSetting();
+        this.goYesterday();
         this.eventSetting();
         this.makeMyHabits(model.userInfo.myHabits);
     }
@@ -93,6 +94,7 @@ class DailyCheck {
         });
         const date = this.date.text.split('.').join('');
         model.userInfo.setDailyHabits({date, habits});
+        this.goResult();
     }
 
     public logout() {

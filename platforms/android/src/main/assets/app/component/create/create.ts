@@ -76,6 +76,10 @@ class Create {
 
 }
 
+let create = null;
+
 exports.navigated = function (args) {
-    new Create(args.object);
+    if(!create){
+        create = new Create(args.object);
+    }
 };
