@@ -13,6 +13,14 @@ class UserInfo {
         return this._uid;
     }
 
+    get userInfo() {
+        return this._userInfo;
+    }
+
+    set userInfo(value) {
+        this._userInfo = value;
+    }
+
     set uid(value) {
         this._uid = value;
     }
@@ -28,7 +36,7 @@ class UserInfo {
     public async getMyHabits() {
         try {
             const response = await firebase.getValue(`/users/${this.uid}`);
-            this._userInfo = response.value;
+            this._userInfo = response.value || {};
             this.myHabits = this._userInfo.habits;
             return this.myHabits;
         } catch (e) {
@@ -60,7 +68,9 @@ class UserInfo {
 
     async createHabits({habits}) {
         try {
-            await firebase.setValue(`/users/${this.uid}`, {habits: habits});
+            console.log('this.uid', this.uid);
+            this.userInfo.habits = habits;
+            await firebase.setValue(`/users/${this.uid}`, this.userInfo);
             alert('등록되었습니다');
         } catch (e) {
             alert('등록실패하였습니다' + e);
@@ -68,8 +78,8 @@ class UserInfo {
     }
 
     async setProfile({nickName}) {
-        this._userInfo.profile = {nickName: nickName};
-        await firebase.setValue(`/users/${this.uid}`, this._userInfo);
+        this.userInfo.profile = {nickName: nickName};
+        await firebase.setValue(`/users/${this.uid}`, this.userInfo);
     }
 
     public logout() {

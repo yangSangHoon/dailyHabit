@@ -25,10 +25,6 @@ class Profile {
     }
 }
 
-let profile = null;
 exports.navigated = function (args) {
-    if(!profile){
-        profile = new Profile(args.object);
-    }
-
+    new Profile(args.object);
 };

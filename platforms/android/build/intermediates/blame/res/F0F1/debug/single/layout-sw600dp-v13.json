@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/res/merged/F0F1/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
         "merged": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/res/merged/F0F1/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }

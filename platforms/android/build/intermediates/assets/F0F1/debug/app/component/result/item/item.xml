@@ -1,0 +1,4 @@
+<StackLayout flexDirection="column" loaded="onLoad">
+    <Label id="date"/>
+    <Label id="habits"/>
+</StackLayout>

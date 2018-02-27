@@ -20,19 +20,30 @@ class Create {
         this.eventSetting();
     }
 
+    private makeMyHabits() {
+        this.habitContainer.removeChildren();
+        const myHabits = model.userInfo.myHabits;
+        if (!myHabits || myHabits.length == 0) {
+            this.addHabit();
+        } else {
+            myHabits.forEach(habit => {
+                this.addHabit(habit);
+            });
+        }
+    }
+
     private addHabit(habitDbData = null) {
-        console.log('addHabit', JSON.stringify(habitDbData));
         const habit = builder.load({
             path: '/component/create/habit',
             name: 'habit'
         });
 
+        this.habitContainer.addChild(habit);
+
         if (habitDbData) {
             habit.getViewById('habitName').text = habitDbData.title;
             habit.getViewById('habitCount').text = habitDbData.value;
         }
-
-        this.habitContainer.addChild(habit);
     }
 
     private eventSetting() {
@@ -45,18 +56,6 @@ class Create {
         this.btnAdd.on(buttonModule.Button.tapEvent, () => {
             this.addHabit();
         });
-    }
-
-    private makeMyHabits() {
-        const myHabits = model.userInfo.myHabits;
-        console.log('myHabits', JSON.stringify(myHabits));
-        if (!myHabits || myHabits.length == 0) {
-            this.addHabit();
-        } else {
-            myHabits.forEach(habit => {
-                this.addHabit(habit);
-            });
-        }
     }
 
     public goSubmit() {
@@ -79,12 +78,6 @@ class Create {
 
 }
 
-let create = null;
-
 exports.navigated = function (args) {
-    if(!create){
-        create = new Create(args.object);
-    }else{
-        create.makeMyHabits();
-    }
+    new Create(args.object);
 };

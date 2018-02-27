@@ -3,165 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-nativescript-optimized_9764827c390cd8d70b71940fa70520fe98e6fb8e.jar" />
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-11.8.0_873c3e8e4f6dfb559052797a028d261ad79df7cb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-11.8.0_07b866c941407cd5eac58c0cb762d8e3177c0d18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-26.0.0-alpha1_6a769d98d7707058a659ebca3da35962cd098a5e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-26.0.0-alpha1_1891470c463ea906c69eb8045f958a10367d9934.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-26.0.0-alpha1_3bf9ba24ee0dfe2324d3c511d19205c0c0a820c9.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-compat-26.0.0-alpha1_672115b2bdeae35f6c77209917a6d99c0346a691.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="1b982cc8b5ab6f788690238dbe3ac3bb19f88b1a">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-11.8.0_83ed2daa6421b2bc7aca8f4c46f459d3d5129103.jar" />
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-26.0.0-alpha1_6f00f2875ff24997e054a28dd1d928dd0965d82f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_e1bf71412988a96580b408d60cd2b0368e367d4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c44026185adf61f12630db36ac6781481f559e7c">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-messaging-11.8.0_5da6d72b81cace788bd6432f488e6344f0d49248.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_55b3592095c72e6f6c2710c2c1a4e6846ecb4f7f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-cardview-v7-26.0.0-alpha1_5da085de227ba124a3a9b87767ac6456b208ee3c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-26.0.0-alpha1_87ab1cc86a4912b0798bcd4767ebcddc177fa84f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-26.0.0-alpha1_b0b8fbbeb8703e79e7449679e05d4944ae33c281.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-iid-11.8.0_e76ca5d7b436ad2a829165f86f014ba377c1225f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-firestore/11.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="8c5a80c80167d5e6bfe84309f0787a769fd23f61">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-firestore-11.8.0_4bf00b2a9ecd571d621029a70d605f2a7397cefa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-common-11.8.0_1f715cb7ac75d0c8856fe38494b725364b11fd5e.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-common-11.8.0_1a59d79ec302e1245987ada3f50df11d9b06fcec.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_fa097af97451f0799305da115931cd9634a02d5c.jar" />
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-ui-26.0.0-alpha1_64ee4ebe150660fbbbc4d2411c4b282a7f5ca275.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="ed04a0ae7198b0d5d0e965d6afdb0fe784dcfbee">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-connection-11.8.0_99f1dc3f5ea2ef02e0a412805e9a67c4335c5a99.jar" />
+        sha1="fe66404378d7791a232cc3331811b2ce402f44c7">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-firebase-release_9780f33fe9fe9744bf03730f33644feaa3ac0591.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-iid-11.8.0_4caa205c1ae370497894e00fff0610447cc494d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-firestore/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8c5a80c80167d5e6bfe84309f0787a769fd23f61">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-firestore-11.8.0_430a11c989d1d0094502f72b7da4b46697fe1b59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-cardview-v7-26.0.0-alpha1_a73d0a38d6f9f3b347eeff954e92aaa44e6dcfe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="aebd345a61f563da0989cbd014479c8bf7bd77ab">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-customtabs-26.0.0-alpha1_aacfa5750a4d491849b773c14ac78f80d1e59169.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-customtabs-26.0.0-alpha1_ee6e476123a84c833c77ac57ee58200e61b311ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-11.8.0_9ed5a3b60bb4d5b9a42c35e6c2abd7239c2c076e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c44026185adf61f12630db36ac6781481f559e7c">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-messaging-11.8.0_aba8878747999ecb6177217f7ced1f36e9007781.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_e954a9b6696c5748e1bde50752cee4a36127fb68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-11.8.0_a67295c9e2e776d1f00356d3bdbe9fd7243894d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-design-26.0.0-alpha1_e901488afdcae387d9f588031c689eb5d3986fb9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -170,70 +143,97 @@
         optimize="true"
         revision="26.0.2"
         sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-26.0.0-alpha1_4a12afa55e2c3756e55ed4c6dec6e24793431eb0.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-26.0.0-alpha1_4a12afa55e2c3756e55ed4c6dec6e24793431eb0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-26.0.0-alpha1_c45dddbb317b6fa00f03f75c3ce58dee208edee1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-26.0.0-alpha1_7e366068956e3971d5c212f987612c426b53d20c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_fa974044af91cc966c1ab63e7f5ddffb7f89ebf4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-26.0.0-alpha1_327838e1fde45d244c36f9058de17f1be45d4d43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="c5bc72ad3250d065128d1d7514279be703e57bd0">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-auth-11.8.0_d7ad6fad3b50e071c78db3cd413a0665fde32ac2.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-auth-11.8.0_2523247a1a55cfec034b206f269a1408fc730835.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b982cc8b5ab6f788690238dbe3ac3bb19f88b1a">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-11.8.0_2363e6180d47cfc7c88b5df6a3f84ba741e58345.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_ed31f910b8d4826c12c4d76a6b05cc399ab4cf06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-media-compat-26.0.0-alpha1_73ab6055291c0927c61969fe1e7c1deb30649163.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-26.0.0-alpha1_bd31809cfb84f0f61243611e213d6c2ec52ac301.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-transition-26.0.0-alpha1_b9671c28eb7bb491a20548a61d70c5b6cb0da8d8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="d9a09584e04eb95d247f251d5d498eb57fcf6e41">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-config-11.8.0_63aa998883b616e71608fa676b9c43005e13f1c4.jar" />
+        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-impl-11.8.0_0383cd9f2619a1f5d6031ea6212ebfc9576c551f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-utils-26.0.0-alpha1_a7b4ef88ee5bb5f43242b28f058cb64b9038a0d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-fragment-26.0.0-alpha1_db81ba16252fb838cff87e551ab744ae2f5fedfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-nativescript-optimized_2f7accc2ce89887c48cd2eb28dd78d5b2eac298b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_f90ad3b8dbd49b1c6b51bab6bb100fc9342d9e2b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -242,16 +242,25 @@
         optimize="true"
         revision="26.0.2"
         sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/gson-2.8.2_d0b1513d02fe117c9affdd7f7a3ecc4e430a9964.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/gson-2.8.2_d0b1513d02fe117c9affdd7f7a3ecc4e430a9964.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/11.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-11.8.0_4d45fc8314988e84aefd405e93f2a7f14d2d2c82.jar" />
+        sha1="d9a09584e04eb95d247f251d5d498eb57fcf6e41">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-config-11.8.0_2ee892cd9635eec66278f49911793bc5f8b148d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed04a0ae7198b0d5d0e965d6afdb0fe784dcfbee">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-connection-11.8.0_343f4f89ec7a2f9683754a274672bf1fa25fb230.jar" />
     </item>
     <item
         is-multidex="false"
@@ -260,7 +269,7 @@
         optimize="true"
         revision="26.0.2"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okio-1.6.0_34017e6242363f5d55c53819f797b8b48df7e858.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okio-1.6.0_34017e6242363f5d55c53819f797b8b48df7e858.jar" />
     </item>
     <item
         is-multidex="false"
@@ -269,43 +278,34 @@
         optimize="true"
         revision="26.0.2"
         sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okhttp-2.7.2_e9fa1e27c4856a5c6568a2c16a916ed2878a54ae.jar" />
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okhttp-2.7.2_e9fa1e27c4856a5c6568a2c16a916ed2878a54ae.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-11.8.0_25fda00fdb0a328ac8144bfa37ce9ad3518d0b4e.jar" />
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-11.8.0_89c920ed49f50b8f2eea08d4a69923f3d822fe0e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-11.8.0_1e2f17cdf7cf00c87cc50cd2bb754c15ff2a5c35.jar" />
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_a2dfec8f71d0805d5af2c0264eed93242a6b9d13.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.8.0/jars/classes.jar"
+        jar="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-impl-11.8.0_aa39d10569bf670a110604ba5afda3297e866412.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fe66404378d7791a232cc3331811b2ce402f44c7">
-        <dex dex="/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-firebase-release_8577f85eb6ba34fb7d2b79250d8b4cdcedb9b117.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-26.0.0-alpha1_ed01190be20e17ddb60485419ce9a9bd987c8fd9.jar" />
     </item>
 
 </items>

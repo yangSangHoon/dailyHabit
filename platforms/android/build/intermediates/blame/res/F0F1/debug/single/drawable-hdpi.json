@@ -8,7 +8,15 @@
         "source": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/src/main/res/drawable-hdpi/background.png"
     },
     {
+        "merged": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/background.png",
+        "source": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/res/drawable-hdpi/background.png"
+    },
+    {
         "merged": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/icon.png",
         "source": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/icon.png",
+        "source": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/res/drawable-hdpi/icon.png"
     }
 ]

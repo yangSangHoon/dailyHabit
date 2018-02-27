@@ -4,8 +4,20 @@
         "source": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
     },
     {
+        "merged": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/icon.png",
+        "source": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo.png",
+        "source": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
         "merged": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo.png",
         "source": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/background.png",
+        "source": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/res/drawable-xxxhdpi/background.png"
     },
     {
         "merged": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/background.png",

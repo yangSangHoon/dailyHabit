@@ -32,10 +32,7 @@ class GroupResult {
     }
 }
 
-let groupResult = null;
-exports.navigated = function (args) {
-    if(!groupResult){
-        groupResult = new GroupResult(args.object);
-    }
 
+exports.navigated = function (args) {
+    new GroupResult(args.object);
 };

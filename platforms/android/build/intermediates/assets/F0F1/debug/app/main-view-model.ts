@@ -1,39 +1,80 @@
 import {Observable} from 'data/observable';
+const firebase = require("nativescript-plugin-firebase");
+import frameModule = require("ui/frame");
+import model from './model/model';
+import buttonModule = require("ui/button");
 
 export class HelloWorldModel extends Observable {
 
-    private _counter: number;
-    private _message: string;
+    private btn1;
+    private btn2;
+    private btn3;
+    private btn4;
+    private btn5;
+    private topmost = frameModule.topmost();
 
-    constructor() {
+    constructor(page) {
         super();
-
-        // Initialize default values.
-        this._counter = 42;
-        this.updateMessage();
+        this.checkLogin();
+        this.btn1 = page.getViewById('btn1');
+        this.btn2 = page.getViewById('btn2');
+        this.btn3 = page.getViewById('btn3');
+        this.btn4 = page.getViewById('btn4');
+        this.btn5 = page.getViewById('btn5');
+        this.eventSetting();
     }
 
-    get message(): string {
-        return this._message;
-    }
-    
-    set message(value: string) {
-        if (this._message !== value) {
-            this._message = value;
-            this.notifyPropertyChange('message', value)
-        }
+    private eventSetting() {
+        this.btn1.on(buttonModule.Button.tapEvent, () => {
+            this.navigate("component/create/create");
+        });
+
+        this.btn2.on(buttonModule.Button.tapEvent, () => {
+            this.navigate("component/dailyCheck/dailyCheck");
+        });
+
+        this.btn3.on(buttonModule.Button.tapEvent, () => {
+            this.navigate("component/result/result");
+        });
+
+        this.btn4.on(buttonModule.Button.tapEvent, () => {
+            this.navigate("component/profile/profile");
+        });
+
+        this.btn5.on(buttonModule.Button.tapEvent, () => {
+            this.navigate("component/groupResult/groupResult");
+        });
     }
 
-    public onTap() {
-        this._counter--;
-        this.updateMessage();
+    private navigate(url) {
+        this.topmost.navigate(url);
     }
 
-    private updateMessage() {
-        if (this._counter <= 0) {
-            this.message = 'Hoorraaay! You unlocked the NativeScript clicker achievement!';
-        } else {
-            this.message = `${this._counter} taps left`;
-        }
-    }
+    private checkLogin() {
+        firebase.init({
+            onAuthStateChanged: async function (data) { // optional but useful to immediately re-logon the user when he re-visits your app
+                console.log(data.loggedIn ? "Logged in to firebase" : "Logged out from firebase");
+
+                if (data.loggedIn) {
+                    model.userInfo.uid = data.user.uid;
+                    const myHabits = await model.userInfo.getMyHabits();
+                    /*if (myHabits) {
+                        topmost.navigate("component/dailyCheck/dailyCheck");
+                    } else {
+                        topmost.navigate("component/create/create");
+                    }*/
+                } else {
+                    this.topmost.navigate("component/login/login");
+                }
+            }
+        }).then(
+            instance => {
+                console.log('instance', instance);
+                console.log("firebase.init done");
+            },
+            error => {
+                console.log(`firebase.init error: ${error}`);
+            }
+        );
+    };
 }

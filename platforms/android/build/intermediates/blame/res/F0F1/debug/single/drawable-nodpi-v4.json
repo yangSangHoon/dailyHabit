@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-nodpi-v4/splash_screen.xml",
+        "source": "/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/res/drawable-nodpi/splash_screen.xml"
+    },
+    {
         "merged": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-nodpi-v4/splash_screen.xml",
         "source": "/Users/ysh/Documents/dev/nativescripts/my-app-name/platforms/android/src/main/res/drawable-nodpi/splash_screen.xml"
     }

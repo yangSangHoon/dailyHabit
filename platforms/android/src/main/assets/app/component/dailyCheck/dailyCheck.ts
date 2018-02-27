@@ -105,11 +105,8 @@ class DailyCheck {
         const topmost = frameModule.topmost();
         topmost.navigate("component/result/result");
     }
-
 }
-let dailyCheck = null;
+
 exports.navigated = function (args) {
-    if(!dailyCheck){
-        dailyCheck = new DailyCheck(args.object);
-    }
+    new DailyCheck(args.object);
 };
