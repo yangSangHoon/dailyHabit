@@ -21,16 +21,18 @@ components that have the btn class name.
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    width:100%;
+    height:100%;
 }
 
 .main .btn{
     background-color:transparent;
+    width:50%;
+    height:25%;
 }
 .main .btn.btn1{
-    left:20%; top:30%;
 }
 .main .btn.btn2{
-
 }
 .main .btn.btn3{
     left:20%; top:150%;

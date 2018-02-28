@@ -36,7 +36,7 @@ class UserInfo {
     public async getMyHabits() {
         try {
             const response = await firebase.getValue(`/users/${this.uid}`);
-            this._userInfo = response.value;
+            this._userInfo = response.value || {};
             this.myHabits = this._userInfo.habits;
             return this.myHabits;
         } catch (e) {
@@ -68,6 +68,7 @@ class UserInfo {
 
     async createHabits({habits}) {
         try {
+            console.log('this.uid', this.uid);
             this.userInfo.habits = habits;
             await firebase.setValue(`/users/${this.uid}`, this.userInfo);
             alert('등록되었습니다');

@@ -3,6 +3,8 @@ const firebase = require("nativescript-plugin-firebase");
 import frameModule = require("ui/frame");
 import model from './model/model';
 import buttonModule = require("ui/button");
+import {layout} from "utils/utils";
+import {AbsoluteLayout} from 'ui/layouts/absolute-layout';
 
 export class HelloWorldModel extends Observable {
 
@@ -11,7 +13,11 @@ export class HelloWorldModel extends Observable {
     private btn3;
     private btn4;
     private btn5;
+    private stage;
     private topmost = frameModule.topmost();
+
+    private stageWidth: number;
+    private stageHeight: number;
 
     constructor(page) {
         super();
@@ -21,7 +27,30 @@ export class HelloWorldModel extends Observable {
         this.btn3 = page.getViewById('btn3');
         this.btn4 = page.getViewById('btn4');
         this.btn5 = page.getViewById('btn5');
+        this.stage = page.getViewById('stage');
+        this.stageWidth = this.getWidth(this.stage);
+        this.stageHeight = this.getHeight(this.stage);
         this.eventSetting();
+        this.layoutSetting();
+    }
+
+    layoutSetting() {
+        console.log('this.stageWidth', this.stageWidth);
+        AbsoluteLayout.setLeft(this.btn2, this.stageWidth/2);
+        AbsoluteLayout.setLeft(this.btn4, this.stageWidth/2);
+        AbsoluteLayout.setTop(this.btn1, this.stageHeight/9);
+        AbsoluteLayout.setTop(this.btn2, this.stageHeight/9);
+        AbsoluteLayout.setTop(this.btn3, this.stageHeight/3);
+        AbsoluteLayout.setTop(this.btn4, this.stageHeight/3);
+        AbsoluteLayout.setTop(this.btn5, this.stageHeight/1.7);
+    }
+
+    private getWidth(view){
+        return layout.toDeviceIndependentPixels(view.getMeasuredWidth());
+    }
+
+    private getHeight(view){
+        return layout.toDeviceIndependentPixels(view.getMeasuredHeight());
     }
 
     private eventSetting() {
