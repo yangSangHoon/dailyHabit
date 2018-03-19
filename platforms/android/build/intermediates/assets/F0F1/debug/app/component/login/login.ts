@@ -1,5 +1,6 @@
 const firebase = require("nativescript-plugin-firebase");
 import buttonModule = require("ui/button");
+import frameModule = require("ui/frame");
 
 class Login {
 
@@ -14,19 +15,22 @@ class Login {
         this.btnLogin.on(buttonModule.Button.tapEvent, () => {
             this.goLogin();
         });
+        this.goLogin();
     }
 
     public async goLogin() {
         try {
             await firebase.login(
                 {
-                    type: firebase.LoginType.PASSWORD,
-                    passwordOptions: {
+                    type: firebase.LoginType.ANONYMOUS,
+                    /* passwordOptions: {
                         email: this.email.text,
                         password: this.password.text,
-                    }
+                    } */
                 });
             alert('로그인 성공');
+            const topmost = frameModule.topmost();
+            topmost.navigate("component/result/result");
         } catch (e) {
             alert(e);
         }

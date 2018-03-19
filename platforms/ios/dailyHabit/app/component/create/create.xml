@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" navigatedTo="navigated" actionBarHidden="true">
+    <StackLayout flexDirection="column">
+        <Button text="추가" id="btnAdd"/>
+        <StackLayout flexDirection="column" id="habitContainer">
+        </StackLayout>
+        <Button text="등록" id="btnSubmit"/>
+        <Button text="로그아웃" id="btnLogout"/>
+    </StackLayout>
+</Page>

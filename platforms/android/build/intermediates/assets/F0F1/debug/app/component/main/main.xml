@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" onloaded="navigated" actionBarHidden="true">
+    <AbsoluteLayout id="stage" class="main">    
+        <Button class="btn btn1" id="btn1"></Button>
+        <Button class="btn btn2" id="btn2"></Button>
+        <Button class="btn btn3" id="btn3"></Button>
+        <Button class="btn btn4" id="btn4"></Button>
+        <Button class="btn btn5" id="btn5"></Button>
+        <Image src="~/images/dailyhabit.png" width="300" left="20" top="500" /> 
+    </AbsoluteLayout>
+</Page>

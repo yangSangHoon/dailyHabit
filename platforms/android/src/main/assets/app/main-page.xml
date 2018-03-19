@@ -1,9 +1,2 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatedTo="navigated" class="page" actionBarHidden="true">
-    <AbsoluteLayout id="stage" class="main">
-        <Button class="btn" id="btn1"></Button>
-        <Button class="btn" id="btn2" right="0"></Button>
-        <Button class="btn" id="btn3"></Button>
-        <Button class="btn" id="btn4"></Button>
-        <Button class="btn" id="btn5"></Button>
-    </AbsoluteLayout>
 </Page>

@@ -33,14 +33,30 @@ class UserInfo {
         this._myHabits = value;
     }
 
+    public async getUserInfo() {
+        const response = await firebase.getValue(`/users/${this.uid}`);
+        this._userInfo = response.value || {};
+        this.myHabits = this._userInfo.habits;
+    }
+
     public async getMyHabits() {
         try {
             const response = await firebase.getValue(`/users/${this.uid}`);
             this._userInfo = response.value || {};
+            console.log('this._userInfo', JSON.stringify(this._userInfo));
+            this.checkDefaultProfile(this._userInfo);
             this.myHabits = this._userInfo.habits;
             return this.myHabits;
         } catch (e) {
             return null;
+        }
+    }
+
+    private checkDefaultProfile(userInfo) {
+        if(!userInfo.profile) {
+            userInfo.profile = {
+                nickname: `nickname${Math.ceil(Math.random() * 100)}`
+            }
         }
     }
 
