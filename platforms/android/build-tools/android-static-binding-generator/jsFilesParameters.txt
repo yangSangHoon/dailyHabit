@@ -2,12 +2,12 @@
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/bundle-config.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/helpers.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/main-page.js
-/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/main-view-model.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/create/create.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/create/habit/habit.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/dailyCheck/dailyCheck.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/groupResult/groupResult.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/login/login.js
+/Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/main/main.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/profile/profile.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/result/result.js
 /Users/ysh/Documents/dev/nativescripts/dailyHabit/platforms/android/src/main/assets/app/component/result/item/item.js

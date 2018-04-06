@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" navigatedTo="navigated" actionBarHidden="true">
+    <StackLayout flexDirection="column">
+        <Label text="닉네임"/>
+        <TextField id="nickname"></TextField>
+        <Label text="사진"/>
+        <Button text="저장" id="btnSave"/>
+    </StackLayout>
+</Page>

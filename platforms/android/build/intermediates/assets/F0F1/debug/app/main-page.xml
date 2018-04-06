@@ -1,15 +1,2 @@
-<!--
-The markup in NativeScript apps contains a series of user interface components, each
-of which NativeScript renders with a platform-specific iOS or Android native control.
-You can find a full list of user interface components you can use in your app at
-https://docs.nativescript.org/ui/components.
--->
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page" actionBarHidden="true">
-    <StackLayout class="main">
-        <Button text="습관만들기" class="btn" id="btn1"></Button>
-        <Button text="습관실천" class="btn" id="btn2"></Button>
-        <Button text="결과보기" class="btn" id="btn3"></Button>
-        <Button text="프로필" class="btn" id="btn4"></Button>
-        <Button text="다른사람습관보기" class="btn" id="btn5"></Button>
-    </StackLayout>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatedTo="navigated" class="page" actionBarHidden="true">
 </Page>

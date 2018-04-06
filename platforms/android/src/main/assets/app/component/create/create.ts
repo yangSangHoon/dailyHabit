@@ -2,6 +2,7 @@ import model from '../../model/model';
 import buttonModule = require("ui/button");
 const firebase = require("nativescript-plugin-firebase");
 const builder = require('ui/builder');
+import frameModule = require("ui/frame");
 
 class Create {
 
@@ -9,7 +10,7 @@ class Create {
     private btnLogout;
     private habitContainer;
     private btnAdd;
-
+    private topmost = frameModule.topmost();
     constructor(page) {
         this.btnSubmit = page.getViewById('btnSubmit');
         this.btnAdd = page.getViewById('btnAdd');
@@ -58,7 +59,7 @@ class Create {
         });
     }
 
-    public goSubmit() {
+    private async goSubmit() {
 
         let habits: Array<Object> = [];
         this.habitContainer.eachChildView(child => {
@@ -68,7 +69,8 @@ class Create {
             });
         });
 
-        model.userInfo.createHabits({habits});
+        await model.userInfo.createHabits({habits});
+        this.topmost.navigate("component/main/main");
     }
 
     public logout() {

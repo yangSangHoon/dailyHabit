@@ -25,7 +25,7 @@ class DailyCheck {
         this.defaultSetting();
         this.goYesterday();
         this.eventSetting();
-        this.makeMyHabits(model.userInfo.myHabits);
+        this.makeMyHabits();
     }
 
     private defaultSetting() {
@@ -34,17 +34,7 @@ class DailyCheck {
     }
 
     private setDate(date){
-        this.date.text = `${date.getFullYear()}.${addZeroDigit(date.getMonth()+1)}.${date.getDate()}`;
-    }
-
-    private addHabit(habitDbData = null) {
-        const habit = builder.load({
-            path: '/component/create/habit',
-            name: 'habit'
-        });
-
-        habit.getViewById('habitName').text = habitDbData.title;
-        this.habitContainer.addChild(habit);
+        this.date.text = `${date.getFullYear()}.${addZeroDigit(date.getMonth()+1)}.${addZeroDigit(date.getDate())}`;
     }
 
     private eventSetting() {
@@ -73,15 +63,24 @@ class DailyCheck {
         this.setDate(this.todayDate);
     }
 
-    private makeMyHabits(myHabits) {
+    private async makeMyHabits() {
+        const myHabits = await model.userInfo.getMyHabits();
         console.log('myHabitsmyHabits', JSON.stringify(myHabits));
-        if(!myHabits || myHabits.length == 0){
-            this.addHabit();    
-        }else{
+        if(myHabits && myHabits.length > 0){
             myHabits.forEach(habit => {
                 this.addHabit(habit);
             });
         }
+    }
+
+    private addHabit(habitDbData) {
+        const habit = builder.load({
+            path: '/component/create/habit',
+            name: 'habit'
+        });
+
+        habit.getViewById('habitName').text = habitDbData.title;
+        this.habitContainer.addChild(habit);
     }
 
     public goSubmit(){
@@ -103,7 +102,7 @@ class DailyCheck {
 
     private goResult() {
         const topmost = frameModule.topmost();
-        topmost.navigate("component/result/result");
+        topmost.navigate("component/main/main");
     }
 }
 

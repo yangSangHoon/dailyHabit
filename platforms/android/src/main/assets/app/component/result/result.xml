@@ -1,7 +1,10 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" navigatedTo="navigated" actionBarHidden="true">
-    <StackLayout flexDirection="column">
-        <Label text="나의습관결과" id="title"/>
-        <StackLayout flexDirection="column" id="habitContainer">
+    <ScrollView orientation="horizontal" sdkExampleTitle sdkToggleNavButton>
+        <StackLayout flexDirection="column" class="result_habit">
+            <Label text="나의습관결과" id="title"/>
+            <Label text="벌금" id="penaltyMoney"/>
+            <StackLayout flexDirection="column" id="habitContainer">
+            </StackLayout>
         </StackLayout>
-    </StackLayout>
+    </ScrollView>
 </Page>

@@ -3,7 +3,7 @@
         <Label text="email"/>
         <TextField id="email"></TextField>
         <Label text="password"/>
-        <TextField id="password"></TextField>
+        <TextField id="password" secure="true"></TextField>
         <Button text="LOGIN" id="btnLogin"/>
     </StackLayout>
 </Page>

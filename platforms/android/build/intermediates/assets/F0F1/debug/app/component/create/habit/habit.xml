@@ -2,5 +2,5 @@
     <Label text="습관명"/>
     <TextField id="habitName"></TextField>
     <Label text="시간/횟수"/>
-    <TextField id="habitCount"></TextField>
+    <TextField id="habitCount" secure="true" keyboardType="number"></TextField>
 </StackLayout>

@@ -1,5 +1,6 @@
 import buttonModule = require("ui/button");
 import model from '../../model/model';
+import frameModule = require("ui/frame");
 
 class Profile {
 
@@ -20,6 +21,8 @@ class Profile {
                 nickName: this.nickname.text
             });
             alert('등록되었습니다');
+            const topmost = frameModule.topmost();
+            topmost.navigate("component/main/main");
         } catch (e) {
         }
     }

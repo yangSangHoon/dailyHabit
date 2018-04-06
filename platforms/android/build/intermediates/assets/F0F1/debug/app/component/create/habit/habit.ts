@@ -18,7 +18,6 @@ class Habit {
 }
 
 exports.onLoad = function (args) {
-    console.log('onload');
     return new Habit(args.object);
 };
 

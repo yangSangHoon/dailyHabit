@@ -1,0 +1,6 @@
+framework module Pods_dailyHabit {
+  umbrella header "Pods-dailyHabit-umbrella.h"
+
+  export *
+  module * { export * }
+}
